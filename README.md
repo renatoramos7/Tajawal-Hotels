@@ -19,10 +19,10 @@ MVP pattern with Repository Pattern and inspired by the Clean.
 - Mockito for Unit Testing
 - Focus in performance
 
-Three main packages: Commons, data and Ui.
+**Three main packages: Commons, data and Ui.**
 
 - **Common:** Responsible for all Commons files in project.
-- **data:** Here you will find class that handle API requests, database access, connections, persistence things, mapped entities… A pattern to use in this layer is know as Repository..
+- **data:** Here you will find class that handle API requests, database access, connections, persistence things, mapped entities and Repository pattern.
 - **Ui (View + Presenter):** Responsible views and extencions. It is also responsible for the presentation (Presenter).
 
 
