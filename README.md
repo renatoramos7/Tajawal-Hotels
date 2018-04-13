@@ -39,8 +39,6 @@ Material Design pattern in available time.
 <img src="https://github.com/Ckdeveloper/Tajawal-Hotels/blob/master/design/Screenshot3.png" width="300">
 <img src="https://github.com/Ckdeveloper/Tajawal-Hotels/blob/master/design/Screenshot4.png" width="300">
 <img src="https://github.com/Ckdeveloper/Tajawal-Hotels/blob/master/design/Screenshot5.png" width="300">
-<img src="https://github.com/Ckdeveloper/Tajawal-Hotels/blob/master/design/Screenshot6.png" width="300">
-<img src="https://github.com/Ckdeveloper/Tajawal-Hotels/blob/master/design/Screenshot7.png" width="300">
 
 ### Libraries
 
