@@ -12,17 +12,18 @@ MVP pattern with Repository Pattern and inspired by the Clean.
 - Reactive Programming with RxJava2
 - Responsive UI
 - Retrofit + GSON
-- Material Design pattern in available time.
+- Material Design pattern in available time
 - Glide for image loading
 - Dagger 2 for Dependency injection 
-- Google maps.
+- Google maps
 - Mockito for Unit Testing
+- Rotation Support
 - Focus in performance
 
-**Three main packages: Commons, data and Presentation.**
+**Three main packages: Commons, Data and Presentation.**
 
 - **Common:** Responsible for all Commons files in project.
-- **data:** Here you will find class that handle API requests, database access, connections, persistence things, mapped entities and Repository pattern.
+- **Data:** Responsible for all  API requests, database access, connections, persistence things, mapped entities and Repository pattern.
 - **Presentation - Ui (View + Presenter):** Responsible views and extencions. It is also responsible for the presentation (Presenter).
 
 
