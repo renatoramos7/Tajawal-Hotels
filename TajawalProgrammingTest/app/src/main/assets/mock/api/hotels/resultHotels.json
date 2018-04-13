@@ -1,0 +1,382 @@
+{
+  "hotel": [
+    {
+      "hotelId": 4020979,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/A1EE945E-166C-4AC0-BB73-00B1D8F5DEF0.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Burj Nahar Roundabout, Naif Road,",
+        "latitude": 25.275914,
+        "longitude": 55.313262
+      },
+      "summary": {
+        "highRate": 6386.04,
+        "hotelName": "Coral Oriental Dubai",
+        "lowRate": 4958.58
+      }
+    },
+    {
+      "hotelId": 4021032,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/25BF087B-614E-42C1-B49B-EF8FD1BA7D2D.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Park Place Tower Sheikh Zayed Road",
+        "latitude": 25.26944,
+        "longitude": 55.308651
+      },
+      "summary": {
+        "highRate": 11344.62,
+        "hotelName": "Ascott Park Place Dubai",
+        "lowRate": 11344.62
+      }
+    },
+    {
+      "hotelId": 4021127,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/8E907F80-7A64-4C11-A415-5D183629F3A6.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Tecom",
+        "latitude": 25.110160610076,
+        "longitude": 55.195827484131
+      },
+      "summary": {
+        "highRate": 5309.18,
+        "hotelName": "Byblos Hotel",
+        "lowRate": 4257.36
+      }
+    },
+    {
+      "hotelId": 4021140,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/82524502-8E66-46B1-8B04-82E414894020.jpeg"
+        }
+      ],
+      "location": {
+        "address": "The Corner 24Th And 9Th Street Near Al Qiyadah Metro Station",
+        "latitude": 25.271263,
+        "longitude": 55.328996
+      },
+      "summary": {
+        "highRate": 3130.41,
+        "hotelName": "Al Manar Hotel Apartments",
+        "lowRate": 2379.11
+      }
+    },
+    {
+      "hotelId": 4021154,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/C70D5EE7-6D02-4E5F-B2EA-337005FF9FE6.jpeg"
+        }
+      ],
+      "location": {
+        "address": "24C Street Bur Dubai,Alraffa Behind Modern Hospital Dubai City",
+        "latitude": 25.25,
+        "longitude": 55.2864
+      },
+      "summary": {
+        "highRate": 4607.97,
+        "hotelName": "Arabian Dreams",
+        "lowRate": 3906.76
+      }
+    },
+    {
+      "hotelId": 4021226,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/27701BF2-8295-4D6B-A93E-F0645E04F940.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Po Box 2565 Dubai United Arab Emirates",
+        "latitude": 25.26482605,
+        "longitude": 55.32320582
+      },
+      "summary": {
+        "highRate": 3055.28,
+        "hotelName": "Champs Elysees",
+        "lowRate": 2329.03
+      }
+    },
+    {
+      "hotelId": 4021241,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/5CC96334-47DF-4C1C-9FB6-C646A61B828F.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Al Rigga Street Deira",
+        "latitude": 25.262540817261,
+        "longitude": 55.326118469238
+      },
+      "summary": {
+        "highRate": 6386.04,
+        "hotelName": "Avenue Hotel",
+        "lowRate": 4958.58
+      }
+    },
+    {
+      "hotelId": 4021524,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/f4d94c8e-0d19-4cac-b546-a6f34b5b3ea9.jpeg"
+        }
+      ],
+      "location": {
+        "address": "P.O.Box: 502424 Tecom Al Barsha Dubai",
+        "latitude": 25.0987,
+        "longitude": 55.1731
+      },
+      "summary": {
+        "highRate": 9291.07,
+        "hotelName": "Grand Belle Vue",
+        "lowRate": 4607.97
+      }
+    },
+    {
+      "hotelId": 4077937,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/9C9CD467-52E0-43B7-93ED-4D1036F2267A.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Al Qusais Al Nahda2",
+        "latitude": 25.2887974967,
+        "longitude": 55.3685235809
+      },
+      "summary": {
+        "highRate": 4708.14,
+        "hotelName": "Emirates Stars",
+        "lowRate": 3831.63
+      }
+    },
+    {
+      "hotelId": 4299291,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/B68A31D5-4DFC-4B1F-9E49-776D7A1F9144.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Al Maktoum Street Near Clock Tower Deira 64225",
+        "latitude": 25.261256,
+        "longitude": 55.320018
+      },
+      "summary": {
+        "highRate": 9566.55,
+        "hotelName": "Emirates Concorde",
+        "lowRate": 6386.04
+      }
+    },
+    {
+      "hotelId": 4306041,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/92419FDA-14E6-4D30-89CD-B4625E3D0799.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Sheikh Zayed Road",
+        "latitude": 25.11197,
+        "longitude": 55.19085
+      },
+      "summary": {
+        "highRate": 5659.79,
+        "hotelName": "Golden Tulip Al Barsha",
+        "lowRate": 4257.36
+      }
+    },
+    {
+      "hotelId": 4306057,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/A7329E7B-426A-4731-A588-D6ED42B30C49.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Road 329 Al Barsha 1 Business Districts",
+        "latitude": 25.11301612854,
+        "longitude": 55.195117950439
+      },
+      "summary": {
+        "highRate": 9291.07,
+        "hotelName": "Centro Barsha",
+        "lowRate": 9291.07
+      }
+    },
+    {
+      "hotelId": 4326865,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/C9E9B3CA-7980-420C-BCBB-C76AB7224848.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Jumeirah Road",
+        "latitude": 25.241272,
+        "longitude": 55.270518
+      },
+      "summary": {
+        "highRate": 3180.5,
+        "hotelName": "Holiday Inn Express Dubai Jumeirah",
+        "lowRate": 3180.5
+      }
+    },
+    {
+      "hotelId": 5805295,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/F29E2DF6-9704-4DF4-9BC8-EBA1F0864354.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Sheikh Zayed Road",
+        "latitude": 25.113804,
+        "longitude": 55.1913
+      },
+      "summary": {
+        "highRate": 3906.76,
+        "hotelName": "Cassells Al Barsha Hotel",
+        "lowRate": 3180.5
+      }
+    },
+    {
+      "hotelId": 5952566,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/1B237797-2D3F-4174-BF3E-A6B196523C5B.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Po Box 282429 Al Barsha First",
+        "latitude": 25.109491348267,
+        "longitude": 55.203071594238
+      },
+      "summary": {
+        "highRate": 4607.97,
+        "hotelName": "Grandeur",
+        "lowRate": 3180.5
+      }
+    },
+    {
+      "hotelId": 6513063,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/0822C0F5-7E35-4178-B5DD-A6EDCE88A941.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Khalid Bin Walid Street",
+        "latitude": 25.2579,
+        "longitude": 55.2991
+      },
+      "summary": {
+        "highRate": 7162.39,
+        "hotelName": "Four Points By Sheraton Bur Dubai",
+        "lowRate": 5734.92
+      }
+    },
+    {
+      "hotelId": 6533391,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/25C334FB-08C3-41FC-BCB0-2EBFC5273BBD.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Bur Dhabi, Al Kuwait Street,",
+        "latitude": 25.24898,
+        "longitude": 55.29552
+      },
+      "summary": {
+        "highRate": 8164.12,
+        "hotelName": "Grand Excelsior Hotel",
+        "lowRate": 5309.18
+      }
+    },
+    {
+      "hotelId": 6548741,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/671C7B92-7F70-4AE6-84FA-FF1E4EE3B352.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Al Rigga Road Dubai City",
+        "latitude": 25.26173,
+        "longitude": 55.32413
+      },
+      "summary": {
+        "highRate": 5659.79,
+        "hotelName": "Delmon Palace Hotel",
+        "lowRate": 4257.36
+      }
+    },
+    {
+      "hotelId": 6604336,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/fcc0881c-342c-405c-b8a9-7a08ef0fb9b8.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Al Rigga Road Deira Po Box 29499",
+        "latitude": 25.2671,
+        "longitude": 55.3089
+      },
+      "summary": {
+        "highRate": 8289.34,
+        "hotelName": "Holiday Inn Downtown",
+        "lowRate": 5309.18
+      }
+    },
+    {
+      "hotelId": 6660428,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/a9c830ae-bf0d-4ccf-bc13-4ce9d6e5c7bc.jpeg"
+        }
+      ],
+      "location": {
+        "address": "7 Al Rigga St Deira",
+        "latitude": 25.02979,
+        "longitude": 55.18791
+      },
+      "summary": {
+        "highRate": 5659.79,
+        "hotelName": "Hallmark Hotel",
+        "lowRate": 4532.84
+      }
+    },
+    {
+      "hotelId": 6680384,
+      "image": [
+        {
+          "url": "https://az712897.vo.msecnd.net/images/full/C7DCFDDB-85B3-491A-9CAD-3D01BA549CEE.jpeg"
+        }
+      ],
+      "location": {
+        "address": "Sheikh Zayed Road Exit 36 Tecom",
+        "latitude": 25.27126,
+        "longitude": 55.329
+      },
+      "summary": {
+        "highRate": 9215.94,
+        "hotelName": "Grand Millennium Dubai",
+        "lowRate": 8514.73
+      }
+    }
+  ]
+}

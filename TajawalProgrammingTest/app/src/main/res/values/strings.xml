@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tajawal Hotels</string>
+
+    <string name="HOTEL_LIST_TITLE">Tajawal Hotels </string>
+    <string name="MSG_ERROR_INTERNET_CONNECTION">Please, verify your internet connection!</string>
+    <string name="maps_api_key">AIzaSyAojLncCGkHDovjYX44hKaSnXXwpByBs_o</string>
+
+    <string name="HOTEL_ADDRESS">Address: %s</string>
+    <string name="HOTEL_PRICE_SUGGESTED">Suggested Price:</string>
+    <string name="HOTEL_PRICE_SAVE">Our Price:</string>
+</resources>

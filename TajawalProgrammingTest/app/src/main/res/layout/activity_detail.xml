@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context=".presentation.ui.hotel.detail.DetailsActivity">
+
+    <include layout="@layout/toolbar_base_with_back"/>
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hotelNameTextView"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/VIEW_HOLDER_DEFAULT_LAYOUT_MARGIN_TOP"
+            android:layout_marginTop="@dimen/DEFAULT_LAYOUT_MARGIN_TOP"
+            android:text="hotel Name TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/VIEW_HOLDER_DEFAULT_LAYOUT_MARGIN_TOP"
+            android:layout_marginTop="@dimen/DEFAULT_LAYOUT_MARGIN_TOP2"
+            android:text="price TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hotelNameTextView" />
+
+        <TextView
+            android:id="@+id/addressTextView"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/VIEW_HOLDER_DEFAULT_LAYOUT_MARGIN_TOP"
+            android:layout_marginTop="@dimen/DEFAULT_LAYOUT_MARGIN_TOP2"
+            android:text="address TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/priceTextView" />
+
+
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="@dimen/DEFAULT_LAYOUT_VIEW_WIDTH"
+            android:layout_height="@dimen/DEFAULT_LAYOUT_VIEW_HEIGHT"
+            android:layout_marginTop="@dimen/DEFAULT_LAYOUT_MARGIN_TOP"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addressTextView"
+            app:liteMode="true"
+            app:mapType="none" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

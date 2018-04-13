@@ -1,0 +1,27 @@
+<resources>
+
+
+    <!--Base dimens-->
+
+    <dimen name="DEFAULT_ELEVATION">4dp</dimen>
+
+    <dimen name="DEFAULT_TEXT_SIZE_SMALL">14dp</dimen>
+    <dimen name="DEFAULT_TEXT_SIZE_MEDIUM">18dp</dimen>
+    <dimen name="DEFAULT_TEXT_SIZE_LARGE">22dp</dimen>
+
+    <dimen name="DEFAULT_LAYOUT_VIEW_WIDTH">330dp</dimen>
+    <dimen name="DEFAULT_LAYOUT_VIEW_HEIGHT">250dp</dimen>
+    <dimen name="APP_BAR_LAYOUT_LAYOUT_HEIGHT">300dp</dimen>
+
+    <dimen name="VIEW_HOLDER_DEFAULT_LAYOUT_MARGIN_TOP">8dp</dimen>
+    <dimen name="MAIN_GUIDE_VIEW_HOLDER_CARD_ELEVATION">4dp</dimen>
+    <dimen name="DEFAULT_LAYOUT_MARGIN_TOP">24dp</dimen>
+    <dimen name="DEFAULT_LAYOUT_MARGIN_TOP2">16dp</dimen>
+
+    <dimen name="PROGRESSBAR_LAYOUT_WIDTH">70dp</dimen>
+
+    <dimen name="MAIN_GUIDE_VIEW_HOLDER_LAYOUT_MARGIN_TOP">8dp</dimen>
+
+    <dimen name="MAIN_GUIDE_VIEW_HOLDER_DIVIDE_VIEW_LAYOUT_HEIGHT">1px</dimen>
+
+</resources>
