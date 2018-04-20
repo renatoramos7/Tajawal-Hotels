@@ -7,7 +7,7 @@ import javax.inject.Singleton
 
 
 @Module
-open class SettingsModule {
+class SettingsModule {
 
     @Provides
     @Singleton

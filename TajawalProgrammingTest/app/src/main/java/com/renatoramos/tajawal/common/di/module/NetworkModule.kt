@@ -19,7 +19,7 @@ import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
-open class NetworkModule {
+class NetworkModule {
 
     companion object {
         private const val CACHE_SIZE_10_MB = 10 * 1024 * 1024

@@ -27,8 +27,7 @@ class HotelListPresenter @Inject constructor(view: HotelListContract.View, priva
                                 { list -> onSuccess(list!!) },
                                 { throwable -> onError(throwable) }
                         ))
-            }
-            else -> {
+            }else -> {
                 view.showErrorInternetConnection()
                 view.hideProgressBar()
             }
