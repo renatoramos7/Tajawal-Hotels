@@ -7,6 +7,8 @@ import android.support.v7.widget.StaggeredGridLayoutManager
 import android.view.View
 import android.widget.Toast
 import com.renatoramos.tajawal.R
+import com.renatoramos.tajawal.R.id.mainRecyclerView
+import com.renatoramos.tajawal.R.id.toolbarTitleTextView
 import com.renatoramos.tajawal.common.constants.AppConstants
 import com.renatoramos.tajawal.common.extensions.isInternetConnected
 import com.renatoramos.tajawal.common.extensions.makeTextToast
