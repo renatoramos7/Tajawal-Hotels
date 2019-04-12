@@ -29,7 +29,6 @@ class MainApplication : Application(), HasActivityInjector {
         initDagger()
         initPaperDb()
     }
-
     private fun initDagger() {
 
         DaggerAppComponent
@@ -39,6 +38,7 @@ class MainApplication : Application(), HasActivityInjector {
                 .build()
                 .inject(this)
     }
+
 
     private fun initPaperDb(){
         Paper.init(this)

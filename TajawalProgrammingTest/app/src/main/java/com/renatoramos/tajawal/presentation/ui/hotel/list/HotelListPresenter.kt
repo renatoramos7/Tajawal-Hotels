@@ -18,20 +18,13 @@ class HotelListPresenter @Inject constructor(view: HotelListContract.View, priva
     }
 
     override fun getHotelList() {
-        when {
-            view.isInternetConnected() -> {
-                view.showProgressBar()
-                addDisposable(hotelsRepository
-                        .getHotelList()
-                        .subscribe(
-                                { list -> onSuccess(list!!) },
-                                { throwable -> onError(throwable) }
-                        ))
-            }else -> {
-                view.showErrorInternetConnection()
-                view.hideProgressBar()
-            }
-        }
+        view.showProgressBar()
+        addDisposable(hotelsRepository
+                .getHotelList()
+                .subscribe(
+                        { list -> onSuccess(list!!) },
+                        { throwable -> onError(throwable) }
+                ))
     }
 
     override fun onSuccess(hotelModelList: List<HotelModel>) {

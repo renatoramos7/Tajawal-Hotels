@@ -17,7 +17,7 @@ class HotelListRecyclerAdapter (private val context: Context, private val hotelM
         val mainViewHolder = HotelListViewHolder(parent.inflate(R.layout.hotel_viewholder))
 
         //Cell clicks
-        mainViewHolder.itemView.setOnClickListener({hotelListAdapterListener.onItemClick(mainViewHolder.adapterPosition)})
+        mainViewHolder.itemView.setOnClickListener {hotelListAdapterListener.onItemClick(mainViewHolder.adapterPosition)}
         return mainViewHolder
     }
 

@@ -10,7 +10,8 @@ import io.reactivex.schedulers.Schedulers
 import javax.inject.Inject
 
 
-class HotelsRepository @Inject constructor(private val networkService: NetworkService, private val hotelProvider: HotelProvider) {
+class HotelsRepository @Inject constructor(private val networkService: NetworkService,
+                                           private val hotelProvider: HotelProvider) {
 
 
     fun getHotelList(): Maybe<List<HotelModel>> {
@@ -47,7 +48,7 @@ class HotelsRepository @Inject constructor(private val networkService: NetworkSe
                 .cache()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .concatMap({ hotels -> hotelProvider.add(hotels.hotel!!) })
+                .concatMap { hotels -> hotelProvider.add(hotels.hotel!!) }
     }
 
 

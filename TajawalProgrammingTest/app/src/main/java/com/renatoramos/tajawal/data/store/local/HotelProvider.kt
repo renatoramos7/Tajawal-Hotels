@@ -10,7 +10,7 @@ class HotelProvider {
     private val TAG = HotelProvider::class.java!!.simpleName
 
     fun add(hotels: List<HotelModel>): Observable<List<HotelModel>> {
-        return Observable.create<List<HotelModel>>({ e ->
+        return Observable.create<List<HotelModel>> { e ->
             try {
 
                 Paper.book().delete(TAG)
@@ -20,11 +20,10 @@ class HotelProvider {
             } catch (exception: Exception) {
                 e.onError(exception)
             }
-        })
+        }
     }
 
     fun getAll(): Observable<List<HotelModel>> {
-
         val hotelList = Paper.book().read<List<HotelModel>>(TAG)
 
         return if (hotelList != null) {
@@ -47,14 +46,14 @@ class HotelProvider {
     }
 
     fun delete(): Observable<Void> {
-        return Observable.create({ e ->
+        return Observable.create { e ->
             try {
                 Paper.book().delete(TAG)
                 e.onComplete()
             } catch (exception: Exception) {
                 e.onError(exception)
             }
-        })
+        }
     }
 
 

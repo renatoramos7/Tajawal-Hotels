@@ -26,7 +26,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/maps_api_key" />
 
-        <activity android:name=".presentation.ui.hotel.imageviewer.ImageViewerActivity" android:theme="@style/Base.AppTheme.NoActionBar.FullScreen"></activity>
+        <activity android:name=".presentation.ui.hotel.imageviewer.ImageViewerActivity"
+            android:theme="@style/Base.AppTheme.NoActionBar.FullScreen"></activity>
     </application>
 
 </manifest>
