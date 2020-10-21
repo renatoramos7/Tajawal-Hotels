@@ -29,7 +29,7 @@ class HotelProvider {
         return if (hotelList != null) {
             Observable.just<List<HotelModel>>(hotelList)
         } else {
-            var hotelModelList: List<HotelModel> = listOf()
+            val hotelModelList: List<HotelModel> = listOf()
             Observable.just(hotelModelList)
         }
     }
@@ -40,7 +40,7 @@ class HotelProvider {
         return if (hotelList != null) {
              Observable.fromIterable(hotelList).filter { hotel -> hotel.hotelId == id }.map{ customer -> customer }
          } else {
-            var hotelModel: HotelModel? = null
+            val hotelModel: HotelModel? = null
             Observable.just<HotelModel>(hotelModel)
         }
     }
