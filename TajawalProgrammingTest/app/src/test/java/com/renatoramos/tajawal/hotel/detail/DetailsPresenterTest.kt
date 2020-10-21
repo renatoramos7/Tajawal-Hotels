@@ -35,7 +35,6 @@ class DetailsPresenterTest {
     private lateinit var hotelModelMock: HotelModel
     private lateinit var hotelModelListMock: List<HotelModel>
     private lateinit var throwableMock: Throwable
-    private lateinit var summaryMock: SummaryModel
 
     @Before
     fun setUp() {
@@ -72,9 +71,9 @@ class DetailsPresenterTest {
 
         presenter.onSuccess(hotelModelMock)
 
-        verify(view, times(1)).showToolbarTitle(hotelModelMock!!.summary?.hotelName)
+        verify(view, times(1)).showToolbarTitle(hotelModelMock.summary?.hotelName)
         verify(view, times(1)).showImage(hotelModelMock.image?.get(0)?.url)
-        verify(view, times(1)).showHotelLocation(hotelModelMock?.location!!.latitude!!, hotelModelMock?.location!!.longitude!!)
+        verify(view, times(1)).showHotelLocation(hotelModelMock.location!!.latitude!!, hotelModelMock.location!!.longitude!!)
         verify(view, times(1)).showGoogleMap()
         verify(view, times(1)).showHotelName(hotelModelMock.summary?.hotelName)
         verify(view, times(1)).showDiscountPrice(hotelModelMock.summary?.lowRate.toString(), hotelModelMock.summary?.highRate.toString())

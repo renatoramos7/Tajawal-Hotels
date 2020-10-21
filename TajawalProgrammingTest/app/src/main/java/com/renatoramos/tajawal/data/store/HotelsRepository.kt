@@ -15,16 +15,16 @@ class HotelsRepository @Inject constructor(private val networkService: NetworkSe
 
 
     fun getHotelList(): Maybe<List<HotelModel>> {
-        var remote = getHotelListRemote()
-        var local = getHotelListLocal()
+        val remote = getHotelListRemote()
+        val local = getHotelListLocal()
 
         return Observable.concatArray(remote, local)
-                .filter({ list -> !list.isEmpty() })
-                .firstElement()
+                .filter { list -> list.isNotEmpty() }
+            .firstElement()
     }
 
     fun getHotelById(hotelId: Int?): Maybe<HotelModel> {
-        var local = getHotelByIdLocal(hotelId)
+        val local = getHotelByIdLocal(hotelId)
 
         return Observable.concatArray(local)
                 .firstElement()

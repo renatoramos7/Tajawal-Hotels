@@ -40,7 +40,7 @@ class HotelListPresenter @Inject constructor(view: HotelListContract.View, priva
     }
 
     override fun onItemClick(position: Int) {
-        var hotelModel = hotelModelList[position]
+        val hotelModel = hotelModelList[position]
         view.openDetails(hotelModel.hotelId!!)
     }
 }
